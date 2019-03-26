@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercícios - strings</title>
+</head>
+
+<body>
+	
+<script>
+var txt = "Olá Mundo!!";
+console.log(txt);
+
+// quantidade de caracteres
+console.log(txt.length);
+	
+// converter pra letra maiuscula
+console.log(txt.toUpperCase());
+
+// converter pra letra minuscula
+console.log(txt.toLowerCase());
+
+// encontrar posição de algo dentro do text	
+console.log(txt.indexOf('Mu'));
+
+//substituir palavras 	
+console.log(txt.replace('Olá', 'Oi'));	
+	
+// retornar parte de um texto
+console.log(txt.slice(0, 3));
+	
+var cargo = '     Programador      ';
+console.log(cargo);
+	
+//remove espaços 
+console.log(cargo.trim());
+	
+var developer = "Alvaro";
+	
+console.log('O funcionario ' + developer + ' trabalha como ' + cargo.trim());
+	
+//ECMA Script 6
+console.log(`O funcionario ${developer} trabalha como ${cargo.trim()}`);
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
